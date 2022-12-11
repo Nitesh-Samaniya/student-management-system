@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+
+    /* #filterDAta{
+        width: 20%;
+        margin-top: 20px;
+    } */
+
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    table td,
+    table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #8caacf;
+    }
+
+    /* table tr:hover {
+        background-color: #ddd;
+    } */
+    
+    table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #0468aa;
+        color: white;
+        text-align: center;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    </style>
+</head>
+<body>
+     <!-- Navbar start -->
+    <div id="navbar">
+        <div id="link">
+            <div><a href="home.html">HOME</a></div>
+            <div><a href="dashboard.html">DASHBOARD</a></div>
+        </div>
+
+        <div id="totalStudent">
+            <div>
+                <div>FT_WEB 18 -</div>
+                <div id="web18"></div>
+            </div>
+            <div>
+                <div>FT_WEB 19</div>
+                <div id="web19"></div>
+            </div>
+            <div>
+                <div>FT_WEB 20</div>
+                <div id="web20"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- filter data start -->
+    <!-- <select id="filterDAta">
+        <option value="">Select By Batch</option>
+        <option value="FT_WEB 18">FT_WEB 18</option>
+        <option value="FT_WEB 19">FT_WEB 19</option>
+        <option value="FT_WEB 20">FT_WEB 20</option>
+    </select> -->
+    <!-- filter data start -->
+
+    <!-- Table Start -->
+    <table>
+        
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Unit</th>
+            <th>Image</th>
+            <th>Batch</th>
+          </tr>
+        </thead>
+
+        <tbody>
+        
+        </tbody>
+
+      </table>
+    <!-- Table End -->
+</body>
+</html>
+<script src="dashboard.js"></script>

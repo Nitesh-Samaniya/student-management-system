@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(85, 240, 240);
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+#link{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+}
+#link > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#totalStudent{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin-right: 30px;
+}
+#totalStudent > div{
+    width: 30%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#web18{
+    width: 20%;
+    height: 40px;
+    /* border: 1px solid yellow; */
+    color: red;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+#web19{
+    width: 20%;
+    height: 40px;
+    /* border: 1px solid yellow; */
+    color: red;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+#web20{
+    width: 20%;
+    height: 40px;
+    /* border: 1px solid yellow; */
+    color: red;
+    font-weight: bolder;
+    margin-left: 12px;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

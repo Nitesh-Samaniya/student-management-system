@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        form {
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 25%;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            padding: 30px;
+        }
+        label {
+            font-size: 20px;
+        }
+        input{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type="submit"]{
+            background-color: rgb(208, 205, 205);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 20px;
+            color: black;
+            color: white;
+            border: none;
+        }
+        input[type="submit"]:hover{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar start -->
+    <div id="navbar">
+        <div id="link">
+            <div><a href="home.html">HOME</a></div>
+            <div><a href="dashboard.html">DASHBOARD</a></div>
+        </div>
+
+        <div id="totalStudent">
+            <div>
+                <div>FT_WEB 18 -</div>
+                <div id="web18"></div>
+            </div>
+            <div>
+                <div>FT_WEB 19 -</div>
+                <div id="web19"></div>
+            </div>
+            <div>
+                <div>FT_WEB 20 -</div>
+                <div id="web20"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Form Start -->
+    <form id="form">
+        <label>Student Name</label><br />
+        <input id="name" type="text" placeholder="Enter Student Name"><br />
+
+        <label>Course</label><br />
+        <input id="course" type="text" placeholder="Enter Course Name"><br />
+
+        <label>Unit</label><br />
+        <input id="unit" type="text" placeholder="Enter Unit"><br />
+
+        <label>Student Image</label><br />
+        <input id="image" type="text" placeholder="Enter Student Image URL"><br />
+
+        <label>Batch</label><br />
+        <select>
+            <option value="">Select Batch</option>
+            <option value="FT_WEB 18">FT_WEB 18</option>
+            <option value="FT_WEB 19">FT_WEB 19</option>
+            <option value="FT_WEB 20">FT_WEB 20</option>
+        </select>
+
+        <input id="submit" type="submit" value="Submit"><br />
+    </form>
+    <!-- Form End -->
+</body>
+</html>
+<script src="home.js"></script>
